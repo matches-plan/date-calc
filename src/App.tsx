@@ -3,14 +3,14 @@ import { addDate, addMonth, addWorkdayWithHoliday } from './utils';
 
 function App() {
   const [startDate, setStartDate] = useState('');
-  const [endDate, setEndDate] = useState('');
   const [payDate, setPayDate] = useState('');
+  const [endDate, setEndDate] = useState('');
   useEffect(() => {
     const eDate = addWorkdayWithHoliday(startDate, 3);
-    setEndDate(eDate);
+    setPayDate(eDate);
 
     const payDate = addDate(addMonth(eDate, 1), -1);
-    setPayDate(payDate);
+    setEndDate(payDate);
   }, [startDate]);
 
   return (
