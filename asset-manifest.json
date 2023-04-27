@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.1a283efb.js",
-    "index.html": "/index.html",
-    "main.1a283efb.js.map": "/static/js/main.1a283efb.js.map"
+    "main.js": "/date-calc/static/js/main.1a283efb.js",
+    "index.html": "/date-calc/index.html",
+    "main.1a283efb.js.map": "/date-calc/static/js/main.1a283efb.js.map"
   },
   "entrypoints": [
     "static/js/main.1a283efb.js"
