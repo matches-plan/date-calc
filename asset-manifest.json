@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/date-calc/static/js/main.1a283efb.js",
+    "main.js": "/date-calc/static/js/main.b9b922be.js",
     "index.html": "/date-calc/index.html",
-    "main.1a283efb.js.map": "/date-calc/static/js/main.1a283efb.js.map"
+    "main.b9b922be.js.map": "/date-calc/static/js/main.b9b922be.js.map"
   },
   "entrypoints": [
-    "static/js/main.1a283efb.js"
+    "static/js/main.b9b922be.js"
   ]
 }
